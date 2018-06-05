@@ -1,0 +1,45 @@
+hudanimations_manifest
+{
+	// ----------------------------------------------------------------------
+	
+	// This needs to be at the top dude
+	"file"		"scripts/hudanimations.txt"
+	
+	// ----------------------------------------------------------------------
+	
+	// Crosshair Animations
+	// Uncomment the animation you wish to use (dependent on crosshair)
+	
+	//"file"		"resource/crosshairs/animations/broesel_animations.txt"
+	
+	//"file"		"resource/crosshairs/animations/fog_animations.txt"
+	
+	//"file"		"resource/crosshairs/animations/knuckles_animations.txt"
+	
+	//"file"		"resource/crosshairs/animations/toonhud_animations.txt"
+	
+	//"file"		"resource/crosshairs/animations/whahay_animations.txt"
+	
+	// ----------------------------------------------------------------------
+	
+	// HUD UI Animations
+	"file"		"scripts/animations/healthanimations.txt"
+	"file"		"scripts/animations/ammoanimations.txt"
+	"file"		"scripts/animations/customanimations.txt"
+	
+	// Ubercharge Animations
+	// Uncomment one or the other. Do NOT leave both uncommented.
+	
+	// Default
+	"file"		"scripts/animations/uberanimations.txt"
+	
+	// Rainbow
+	//"file"		"scripts/animations/uberanimations_rainbow.txt"
+	
+	// ----------------------------------------------------------------------
+	
+	// Default Animations
+	"file"		"scripts/hudanimations_tf.txt"
+	
+	// ----------------------------------------------------------------------
+}

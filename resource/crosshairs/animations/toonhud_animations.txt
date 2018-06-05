@@ -1,0 +1,15 @@
+event DamagedPlayer {
+	StopEvent	HitMarker	0.0
+	RunEvent	HitMarker	0.01
+}
+	
+event HitMarker {
+	
+	// Toonhud Animations
+	Animate ToonhudCrosshair FgColor "ToonhudDamage" Linear 0.0 0.0
+	Animate ToonhudCrosshair FgColor "ToonhudDefault" Linear 0.15 0.0
+	
+	Animate ToonhudCrosshairBlur FgColor "ToonhudDamageShadow" Linear 0.0 0.0
+	Animate ToonhudCrosshairBlur FgColor "ToonhudShadow" Linear 0.15 0.0
+	
+}

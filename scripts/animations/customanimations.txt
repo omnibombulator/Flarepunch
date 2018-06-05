@@ -1,0 +1,92 @@
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup	Position	"0 0"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"0 0"	Spline 0.001 0.2
+	
+	Animate HudTournamentSetup	Alpha		"0"			Linear 0.0 0.0
+	Animate HudTournamentSetup	Alpha		"255"		Linear 0.0 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup	Position	"0 0"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"0 0"	Spline 0.001 0.2
+	
+	Animate HudTournamentSetup	Alpha		"255"		Linear 0.0 0.0
+	Animate HudTournamentSetup	Alpha		"0"			Linear 0.0 0.2
+}
+
+//===========================================
+
+event HasNotificationsBlink
+{
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"			Linear 0.2 0.1
+		
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"			Linear 0.6 0.1
+	
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"			Linear 1.0 0.1
+	
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
+
+	RunEvent HasNotificationsBlinkLoop		2.0
+}
+
+event HasNotificationsBlinkLoop
+{
+	RunEvent HasNotificationsBlink			0.0
+}
+
+event HasNotificationsBlinkStop
+{
+	StopEvent HasNotificationsBlink				0.0
+	StopEvent HasNotificationsBlinkLoop 		0.0
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
+}
+
+//===========================================
+
+event NotificationsPresentBlink
+{
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
+	Animate	NotificationsPresentPanel 	Alpha		"255"			Linear 0.2 0.1
+		
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.4 0.1
+	Animate	NotificationsPresentPanel 	Alpha		"255"			Linear 0.6 0.1
+	
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.8 0.1
+	Animate	NotificationsPresentPanel 	Alpha		"255"			Linear 1.0 0.1
+	
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 1.2 0.1
+
+	RunEvent NotificationsPresentBlinkLoop		2.0
+}
+
+event NotificationsPresentBlinkLoop
+{
+	RunEvent NotificationsPresentBlink			0.0
+}
+
+event NotificationsPresentBlinkStop
+{
+	StopEvent NotificationsPresentBlink				0.0
+	StopEvent NotificationsPresentBlinkLoop 		0.0
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
+}
+
+//===========================================
+
+event HudMatchStatus_ShowMatchStartDoors
+{
+	SetVisible	MatchDoors	0	0
+	
+	Animate CountdownLabel ypos 150 Linear 0 0
+	Animate CountdownLabelShadow ypos 150 Linear 0 0
+
+	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
+	Animate CountdownLabelShadow ypos c-0 Gain 0.75 0 0.4
+	
+	SetVisible CountdownBG 0 11
+}
