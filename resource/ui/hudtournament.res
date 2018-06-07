@@ -38,6 +38,7 @@
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
 			"team2_player_delta_x"			"56"
+			"team2_player_delta_x_minmode"	"20"
 		}
 		
 		if_competitive
@@ -101,6 +102,7 @@
 			if_mvm
 			{
 				"wide"		"55"
+				"wide_minmode"	"18"
 				"tall"		"16"
 			}
 						
@@ -152,6 +154,7 @@
 				"fieldName"		"playername"
 				"font"			"DefaultVerySmall"
 				"xpos"			"5"
+				"xpos_minmode"	"999"
 				"ypos"			"24"
 				"zpos"			"5"
 				"wide"			"50"
@@ -166,6 +169,7 @@
 				if_mvm
 				{
 					"xpos"				"19"
+					"xpos_minmode"		"999"
 					"ypos"				"8"
 					"wide"				"35"
 					"textAlignment"		"west"
@@ -175,6 +179,7 @@
 				if_competitive
 				{
 					"xpos"				"4"
+					"xpos_minmode"		"999"
 					"ypos"				"21"
 					"wide"				"p0.9"
 					"tall"				"p0.22"
@@ -186,6 +191,7 @@
 				if_readymode
 				{
 					"xpos"				"19"
+					"xpos_minmode"		"999"
 					"ypos"				"8"
 					"wide"				"35"
 					"textAlignment"		"west"
@@ -199,6 +205,7 @@
 				"fieldName"		"playername_blur"
 				"font"			"DefaultVerySmall"
 				"xpos"			"5"
+				"xpos_minmode"	"999"
 				"ypos"			"24"
 				"zpos"			"4"
 				"wide"			"50"
@@ -213,6 +220,7 @@
 				if_mvm
 				{
 					"xpos"				"4"
+					"xpos_minmode"		"999"
 					"ypos"				"25"
 					"wide"			"48"
 					"textAlignment"		"center"
@@ -222,6 +230,7 @@
 				if_competitive
 				{
 					"xpos"				"4"
+					"xpos_minmode"		"999"
 					"ypos"				"21"
 					"wide"				"p0.9"
 					"tall"				"p0.22"
@@ -233,6 +242,7 @@
 				if_readymode
 				{
 					"xpos"				"5"
+					"xpos_minmode"		"999"
 					"ypos"				"18"
 					"wide"				"45"
 					"textAlignment"		"center"
@@ -766,7 +776,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
-		"xpos"			"230"
+		"xpos"			"9999"
 		"ypos"			"r55"
 		"zpos"			"1"
 		"wide"			"40"
@@ -774,7 +784,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../HUD/color_panel_red"
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -801,9 +811,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"Size 20"
 		"xpos"			"230"
-		"ypos"			"r55"
+		"ypos"			"c10"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"5"
@@ -835,9 +845,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
-		"xpos"			"231"
-		"ypos"			"r54"
+		"font"			"Size 20 Blur"
+		"xpos"			"230"
+		"ypos"			"c10"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"

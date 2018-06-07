@@ -107,185 +107,185 @@
 	// Horizontal Position set by PlayerStatusHealthImage, a hidden panel below
 	"PlayerStatusBleedImage"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatusHookBleedImage"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatusMilkImage"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 
 	"PlayerStatus_SoldierOffenseBuff"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 
 	"PlayerStatus_SoldierDefenseBuff"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_SpyMarked"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_Parachute"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_RuneStrength"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_RuneHaste"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_RuneRegen"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_RuneResist"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_RuneVampire"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_RuneReflect"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_RunePrecision"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_RuneAgility"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_RuneKnockout"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_RuneKing"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_RunePlague"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatus_RuneSupernova"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatusGasImage"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
 	"PlayerStatusSlowed"
 	{
-		"ypos"			"c125"
+		"ypos"			"c130"
 		"wide"			"20"
 		"tall"			"20"
 	}
@@ -295,18 +295,23 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"130"
-		"xpos_minmode"	"145"
-		"ypos"			"38"
-		"ypos_minmode"	"55"
+		"xpos"			"0"
+		"xpos_minmode"	"0"
+		"ypos"			"1"
+		"ypos_minmode"	"1"
 		"zpos"			"7"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"24"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
+		
+		
+		"pin_to_sibling" "PlayerStatusHealthValue"
+		"pin_corner_to_sibling" "PIN_CENTER_RIGHT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_CENTER_LEFT" // Corner of Element you are pinning to
 	}
 	
 	

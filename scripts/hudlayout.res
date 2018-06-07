@@ -364,6 +364,49 @@
 		"text_xpos_minmode"	"999"
 	}
 	
+	HudSpectatorExtras
+	{
+		"player_name_font" 			"Size 8"
+		"player_name_font_minmode" 	"BlankFont"
+	}
+	
+	HudInspectPanel
+	{
+		"xpos"					"r130"
+		"ypos"					"rs1"
+		"zpos"					"10"
+		"wide"					"120"
+		"tall"					"f0"
+	}
+	
+	HudArenaClassLayout [$WIN32]
+	{
+		"ypos"					"-5"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+	
+	ArenaWinPanel
+	{
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+	
+	HudSpellMenu
+	{
+		"wide"	 "f0"
+		"tall"	 "f0"
+		"zpos" 	"2"
+		"xpos"			"0"
+		"ypos"			"0"
+		
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"
+	}
+	
 	// Killfeed
 	// Read Above!
 	HudDeathNotice

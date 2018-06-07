@@ -77,7 +77,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"Size 13"
-		"font_minmode"	"Size 13"
+		"font_minmode"	"BlankFont"
 		"xpos"			"5"
 		"xpos_minmode"	"5"
 		"ypos"			"9999"

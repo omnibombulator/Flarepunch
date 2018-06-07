@@ -359,6 +359,7 @@
 	
 		"QueryLabel"
 		{
+			"xpos"			"9999"
 			"visible"		"0"
 		}	
 		
@@ -398,6 +399,7 @@
 	
 		"QueryLabel"
 		{
+			"xpos"			"9999"
 			"visible"		"0"
 		}	
 		

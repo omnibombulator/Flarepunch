@@ -62,9 +62,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.1"
+		"font"			"Size 20"
+		"xpos"			"c-20"
+		"ypos"			"r55"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"5"
@@ -76,7 +76,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"WhiteColor"
 
 		if_readymode
 		{
@@ -89,9 +89,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
-		"xpos"			"cs-0.48"
-		"ypos"			"cs-0.08"
+		"font"			"Size 20 Blur"
+		"xpos"			"c-20"
+		"ypos"			"r55"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"
@@ -102,7 +102,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"BlackColor"
 		"proportionaltoparent"	"1"
 
 	

@@ -1,3 +1,5 @@
+#base "hudinspectpanel.res"
+
 #base "../../default/resource/ui/spectatortournament.res"
 
 "Resource/UI/SpectatorTournament.res"
@@ -292,25 +294,35 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"r323"
-		"ypos"			"r38"
-		"wide"			"300"
+		"xpos"			"c-150"	[$WIN32]
+		"xpos_minmode"	"c-150"
+		"xpos"			"c-150"	[$X360]
+		"ypos"			"c80"	[$WIN32]
+		"ypos_minmode"	"c80"		[$WIN32]
+		"ypos"			"c80"	[$X360]
+		"ypos_hidef"	"c80"
+		"ypos_lodef"	"c80"
+		"wide"			"300"	[$WIN32]
+		"wide_minmode"	"300"
+		"wide"			"300"	[$X360]
 		"tall"			"18"
-		"zpos"			"2"
-		"autoResize"		"0"
+		"tall_hidef"	"18"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"east"
-		"font"			"Size 14"
+		"textAlignment"		"center"
+		"textAlignment_minmode"		"center"
+		"font"			"Size 15"
+		"font_minmode"	"Size 15"
 		
 		if_mvm
 		{
-			"xpos"			"r403"
-			"ypos"			"r38"
-			"wide"			"380"
-			"textAlignment"		"east"
+			"xpos"			"c-200"
+			"ypos"			"c80"
+			"wide"			"400"
+			"textAlignment"		"center"
 		}
 	}
 	"BuyBackLabel"
@@ -390,81 +402,6 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
 		"visible"		"0"
-	}
-	"itempanel"
-	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"itempanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"190"
-		"tall"			"100"
-		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
-		
-		"model_ypos"		"10"
-		"model_center_x"	"1"
-		"model_wide"		"90"
-		"model_tall"		"60"
-		
-		"text_xpos"		"10"
-		"text_ypos"		"10"
-		"text_wide"		"170"
-		"text_center"	"1"
-		
-		"max_text_height"	"100"
-		"padding_height"	"10"
-		"resize_to_text"	"1"
-		"text_forcesize"	"2"
-		
-		"itemmodelpanel"
-		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"		"1"
-		}
-		
-		"ItemLabel"
-		{	
-			"ControlName"	"Label"
-			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
-			"xpos"			"10"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"9"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-		
-		"attriblabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
-		}
 	}	
 	"spectator_extras"
 	{

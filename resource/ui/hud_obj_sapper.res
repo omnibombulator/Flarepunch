@@ -5,7 +5,7 @@
 	"BuildingStatusItem"
 	{
 		"wide"			"150"
-		"tall"			"345"
+		"tall"			"245"
 	}
 	
 	"Icon_Sentry_1"
@@ -18,7 +18,7 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
 		"xpos"			"6"
-		"ypos"			"325"
+		"ypos"			"225"
 		"zpos"			"5"
 		"wide"			"16"
 		"tall"			"16"
@@ -36,7 +36,7 @@
 	
 	"BuiltPanel"
 	{	
-		"ypos"			"325"
+		"ypos"			"225"
 		
 		"RunningPanel"
 		{			
