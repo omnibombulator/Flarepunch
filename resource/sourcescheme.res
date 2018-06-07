@@ -2,7 +2,7 @@
 // If you wish to have it default (for ETF2L status, for example) add comment lines // to the below line.
 #base "sourcescheme_custom.res"
 
-
+// NOTE: You'll need to restart the game if you edit this file while in game.
 
 
 // Don't Touch This!
