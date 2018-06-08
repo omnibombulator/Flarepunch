@@ -2,16 +2,19 @@ Scheme
 {
 	Colors
 	{
-		"ChargeBarDefault"				"255 255 255 255"
-		"ChargeLabelDefault"			"255 255 255 255"
+		"ChargeBarDefault"				"255 255 255 255" 	// Default Ubercharge Bar Color
+		"ChargeLabelDefault"			"255 255 255 255"	// Default Ubercharge Number Color
 		
-		"ChargeBarCharged1"				"56 142 60 255"
-		"ChargeBarCharged2"				"27 94 32 255"
-		"ChargeLabelCharged1"			"56 142 60 255"
-		"ChargeLabelCharged2"			"27 94 32 255"
+		
+		// Dual Colored Ubercharge Colors
+		"ChargeBarCharged1"				"56 142 60 255"		// Ubercharge Bar Color When Charged
+		"ChargeBarCharged2"				"27 94 32 255"		// Ubercharge Bar Color When Charged
+		"ChargeLabelCharged1"			"56 142 60 255"		// Ubercharge Number Color When Charged
+		"ChargeLabelCharged2"			"27 94 32 255"		// Ubercharge Number Color When Charged
 		
 		
 		// Rainbow Ubercharge Colors
+		// These control the Rainbow Uber animations found in scripts/animations/uberanimations_rainbow.txt
 		"ColorRed"						"255 0 0 255"
 		"ColorVermillion"				"255 64 0 255"
 		"ColorOrange"					"255 128 0 255"

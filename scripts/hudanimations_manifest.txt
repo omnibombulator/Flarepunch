@@ -27,6 +27,8 @@ hudanimations_manifest
 	"file"		"scripts/animations/ammoanimations.txt"
 	"file"		"scripts/animations/customanimations.txt"
 	
+	// ----------------------------------------------------------------------
+	
 	// Ubercharge Animations
 	// Uncomment one or the other. Do NOT leave both uncommented.
 	

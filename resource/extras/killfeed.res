@@ -7,13 +7,13 @@
 		"TextFont_minmode"		"BlankFont"
 	
 		"xpos"	 "r634"	[$WIN32]
-		"ypos"	 "24"	[$WIN32]
+		"ypos"	 "33"	[$WIN32]
 		"xpos"	 "r634"	[$X360]
 		"ypos"	 "4"	[$X360]
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "8"
+		"MaxDeathNotices" "7"
 		"LineHeight"	  "14"
 		"LineSpacing"	  "1"
 		"CornerRadius"	  "0"

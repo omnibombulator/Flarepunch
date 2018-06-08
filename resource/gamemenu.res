@@ -88,6 +88,13 @@
 		"subimage" 	"replay/thumbnails/menu_items"
 		"tooltip" 	"Contracts"
 	}
+	"StreamerMode"
+	{
+		"label" 	"5"
+		"command" 	"engine toggle cl_hud_minmode"
+		"subimage" 	"replay/thumbnails/menu_items"
+		"tooltip" 	"Enable/Disable Streamer Mode"
+	}
 	
 	"VoteButton"
 	{

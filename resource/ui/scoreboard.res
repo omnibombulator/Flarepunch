@@ -765,22 +765,12 @@
 	}
 	"ClassImage"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ClassImage"
-		"xpos"			"22"
-		"xpos_lodef"	"12"
-		"ypos"			"350"
-		"zpos"			"3"
-		"wide"			"92"
-		"tall"			"92"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/class_scoutred"
-		"scaleImage"		"1"	
+		"xpos"			"999"
+		"xpos_lodef"	"999"
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"classmodelpanel"

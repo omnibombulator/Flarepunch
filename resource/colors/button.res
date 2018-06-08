@@ -1,5 +1,21 @@
 Scheme
 {
+	Colors
+	{
+		// Button Text Colors
+		"ButtonTextColor"			"240 240 240 255" // Default Button Text Color
+		"ButtonTextColorHover"		"240 240 240 255" // Hovered Button Text Color
+		
+		// Button Background Colors
+		"ButtonBGColorLight"		"64 64 64 255" // Light Default Button Color
+		"ButtonBGColorLightHover"	"255 152 0 255" // Light Hovered Button Color
+		"ButtonBGColor"				"27 27 27 255" // Default Button Color
+		"ButtonBGColorHover"		"255 152 0 255" // Hovered Button Color
+		
+		"TFOrange"					"64 64 64 255" // This is used primarily for Button Hovers. For best results, keep it the same as ButtonBGColorLight.
+	}
+	
+	// You don't need to touch these unless you really want to, or know what you're doing.
 	BaseSettings
 	{
 		Econ.Button.PresetDefaultColorFg	"ButtonBGColorHover"
@@ -34,20 +50,5 @@ Scheme
 		Menu.ArmedTextColor					"WhiteColor"
 		Menu.ArmedBgColor					"NavigationBar"
 		Menu.TextInset						"8"
-	}
-
-	Colors
-	{
-		// Button Colors
-		"ButtonTextColor"			"240 240 240 255"
-		"ButtonTextColorHover"		"240 240 240 255"
-		
-		"ButtonBGColorLight"		"64 64 64 255"
-		"ButtonBGColorLightHover"	"255 152 0 255"
-		"ButtonBGColor"				"27 27 27 255"
-		"ButtonBGColorHover"		"255 152 0 255"
-		
-		"TFOrange"					"64 64 64 255"
-		// This is used primarily for Button Hovers.
 	}
 }

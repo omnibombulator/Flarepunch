@@ -18,14 +18,14 @@
 	}
 	"PlayerStatusClassImage"
 	{
-		"xpos"			"25"	[$WIN32]
-		"xpos_minmode"	"25"	[$WIN32]
-		"ypos"			"r88"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
-		"wide"			"75"
-		"wide_minmode"	"75"
-		"tall"			"75"
-		"tall_minmode"	"75"
+		"xpos"			"0"	[$WIN32]
+		"xpos_minmode"	"0"	[$WIN32]
+		"ypos"			"r50"	[$WIN32]
+		"ypos_minmode"	"r50"	[$WIN32]
+		"wide"			"50"
+		"wide_minmode"	"50"
+		"tall"			"50"
+		"tall_minmode"	"50"
 	}
 	"PlayerStatusSpyImage"
 	{

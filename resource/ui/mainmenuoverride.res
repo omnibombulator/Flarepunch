@@ -1288,10 +1288,67 @@
 		}	
 	}
 	
+	// Streamer Mode
+	"StreamerMode"
+	{
+		"pin_to_sibling" "CustomQuest"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
+		
+		"xpos"			"6"
+		"ypos"			"0"
+		
+		"wide"			"20"
+		"tall"			"25"
+		"auto_wide_tocontents" "0"
+		
+		"navUp"			""
+		"navDown"		""
+		"navLeft"		""
+		"navRight"		""
+		"navToRelay"	""
+		
+		"pinCorner"		"0"
+		
+		if_competitive
+		{
+			"ypos"		"0"
+		}
+
+		"SubButton"
+		{
+			"wide"			"f0"
+			"tall"			"f0"
+			"font"			"MIcon 18"
+			"textAlignment"	"center"
+			"textinsetx"	"0"
+			"textinsety"	"1"
+			"proportionaltoparent"	"1"
+			"border_default"	"NoBorder"
+			"border_armed"		"NoBorder"
+			"paintbackground"	"0"
+			"auto_wide_tocontents" "0"
+			
+			"textinsetx"	"0"
+			
+			"defaultFgColor_override" 	"64 64 64 255"
+			"armedFgColor_override" 	"255 255 255 255"
+			"depressedFgColor_override" "255 255 255 255"
+			
+			"image_drawcolor"	"64 64 64 255"
+			"image_armedcolor"	"255 255 255 255"
+
+			"SubImage"
+			{
+				"visible"	"0"
+			}
+		}	
+	}
+	
 	// Create Server	
 	"CreateServerButton"
 	{
-		"pin_to_sibling" "CustomQuest"
+		"pin_to_sibling" "StreamerMode"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
 		

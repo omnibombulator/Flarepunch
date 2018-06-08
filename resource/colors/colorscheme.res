@@ -1,25 +1,24 @@
 // Health Colors
-#base "health.res"
+#base "health.res" // DON'T TOUCH
 
 // Ammo Colors
-#base "ammo.res"
+#base "ammo.res" // DON'T TOUCH
 
 // Ubercharge Colors
-#base "ubercharge.res"
+#base "ubercharge.res" // DON'T TOUCH
 
 // Item Qualities
-#base "itemquality.res"
+#base "itemquality.res" // DON'T TOUCH
 
 // Button Color
-#base "button.res"
+#base "button.res" // DON'T TOUCH
 
 Scheme
 {
 	// These are the custom colors for this HUD.
-	// However, some colors may still have to be changed inside clientscheme.res.
 	
-	// Colors for health, ammo, ubercharge and crosshairs are inside their own files.
-	// Crosshairs are found in crosshairs/crosshairscheme.res.
+	// Colors for health, ammo, buttons, ubercharge and crosshairs are inside their own files.
+	// Crosshair Colors are found in crosshairs/crosshairscheme.res.
 	
 	Colors
 	{
@@ -62,35 +61,40 @@ Scheme
 		// Menus
 		
 		// For Main Menu
-		"MainBackground"		"27 27 27 255"
+		"MainBackground"		"27 27 27 255"		// Main Menu Background Color (Dunno if that was obvious enough).
 		
 		// For Backpack, Crafting, etc.
-		"MenuBackground"		"27 27 27 255"
-		"MenuTitle"				"64 64 64 255"
-		"MenuDisabled"			"0 0 0 160"
-		"MenuText"				"255 255 255 255"
+		"MenuBackground"		"27 27 27 255"		// Background Color for all Menus.
+		"MenuTitle"				"64 64 64 255"		// Default Menu Title Color.
+		"MenuDisabled"			"0 0 0 160"			// Disabled Text Color.
+		"MenuText"				"255 255 255 255"	// Default Menu Text Color.
 		
 		// Top Bar in Backpack, Crafting, etc.
-		"NavigationBar"			"0 0 0 255"
-		"NavigationText"		"255 255 255 255"
-		"NavigationLink"		"255 255 255 255"
-		"NavigationLinkSelect"	"64 64 64 255"
+		"NavigationBar"			"0 0 0 255"			// Background.
+		"NavigationText"		"255 255 255 255"	// Text.
+		"NavigationLink"		"255 255 255 255"	// Button.
+		"NavigationLinkSelect"	"64 64 64 255"		// Button Selected.
 		
 		// Bar below Navigation. Classes list.
-		"SecondaryBar"			"16 16 16 255"
-		"SecondaryText"			"255 255 255 255"
-		"SecondaryLink"			"64 64 64 255"
-		"SecondaryLinkHover"	"255 255 255 255"
+		"SecondaryBar"			"16 16 16 255"		// Background.
+		"SecondaryText"			"255 255 255 255"	// Text.
+		"SecondaryLink"			"64 64 64 255"		// Button.
+		"SecondaryLinkHover"	"255 255 255 255"	// Button Hover.
 		
 		// Building HUD Specific
 		"LowHealthRed"		"244 67 54 255"
-		"ProgressOffWhite"	"240 240 240 255"
+		"ProgressOffWhite"	"240 240 240 255" 
 		"ProgressBackground"	"18 18 18 255"
 		"HealthBgGrey"		"18 18 18 255"
 		
 		"ProgressOffWhiteTransparent"	"240 240 240 128"
 	}
 	
+	
+	
+	
+	
+	// Don't need to touch this unless you know what you're doing.
 	BaseSettings
 	{
 		CheckButton.TextColor			"MenuText"

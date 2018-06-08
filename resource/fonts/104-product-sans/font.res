@@ -1372,14 +1372,14 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"12"
+				"tall"		"15"
 				"antialias"	"1"
 				"weight"	"500"
 			}
 			"2"
 			{
 				"name"		"Product Sans"
-				"tall"		"13"	[$WIN32]
+				"tall"		"16"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"antialias"	"1"
 				"weight"	"500"
@@ -1387,7 +1387,7 @@ Scheme
 			"3"
 			{
 				"name"		"Product Sans"
-				"tall"		"14"
+				"tall"		"20"
 				"antialias"	"1"
 				"weight"	"500"
 			}

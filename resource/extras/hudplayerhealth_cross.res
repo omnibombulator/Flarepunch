@@ -2,8 +2,8 @@
 {	
 	"PlayerStatusHealthImage"
 	{
-		"xpos"			"c-174"
-		"xpos_minmode"	"c-174"
+		"xpos"			"c-180"
+		"xpos_minmode"	"c-180"
 		
 		"ypos"			"c100"
 		"zpos"			"4"
@@ -29,9 +29,9 @@
 	
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"			"c-174"	[$WIN32]
-		"xpos_minmode"	"c-174"	[$WIN32]
-		"xpos"			"c-174"	[$X360]
+		"xpos"			"c-180"	[$WIN32]
+		"xpos_minmode"	"c-180"	[$WIN32]
+		"xpos"			"c-180"	[$X360]
 		
 		"ypos"			"c100"	[$WIN32]
 		"ypos_minmode"	"c100"	[$WIN32]
