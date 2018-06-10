@@ -2722,7 +2722,7 @@ Scheme
 		// Be sure the following number is past "8" and not the same as any other number on a custom font file!
 		"96" 
 		{
-			"font" "resource/fonts/HudasIscariote.otf"
+			"font" "resource/extras/icons/HudasIscariote.otf"
 			"name" "Hudas Iscariote"
 		}
 		"97"

@@ -87,94 +87,84 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"c-200"
-		"ypos"			"r135"
-		"wide"			"400"
-		"tall"			"135"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		
 		"CreditStatsBackground"
 		{
-			"ControlName"		"ScalableImagePanel"
-			"fieldName"		"CreditStatsBackground"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"400"
-			"tall"			"135"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_brown"
-
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"visible"		"0"
 		}
 		
 		"CreditsLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
-			"labelText"		"#TF_PVE_Currency"
-			"textAlignment" "north-west"
-			"xpos"			"8"
-			"ypos"			"8"
-			"wide"			"100"
-			"tall"			"25"
-			"fgcolor"		"tanlight"
+			"xpos"			"999"
 		}
 		
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
-			"xpos"			"8"
-			"ypos"			"30"
-			"wide"			"184"
-			"tall"			"60"
+			"xpos"			"c-32"
+			"ypos"			"r92"
+			"wide"			"134"
+			"tall"			"50"
 			"wide"			"200"
 			"visible"		"1"
+			
+			"bgcolor_override"	"255 0 0 0"
 		}
 		
 		"TotalGameCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"208"
-			"ypos"			"30"
-			"wide"			"184"
-			"tall"			"60"
+			"xpos"			"20"
+			"ypos"			"0"
+			"wide"			"134"
+			"tall"			"50"
 			"wide"			"200"
 			"visible"		"1"
+			
+			"pin_to_sibling" 		"PreviousWaveCreditInfoPanel"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 		
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
-			"xpos"			"8"
-			"ypos"			"75"
-			"wide"			"184"
-			"tall"			"60"
+			"xpos"			"0"
+			"ypos"			"4"
+			"wide"			"134"
+			"tall"			"36"
 			"wide"			"200"
 			"visible"		"1"
+			
+			"bgcolor_override"	"255 0 0 0"
+			
+			"pin_to_sibling" 		"PreviousWaveCreditInfoPanel"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 		
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"208"
-			"ypos"			"75"
-			"wide"			"184"
-			"tall"			"60"
+			"xpos"			"0"
+			"ypos"			"4"
+			"wide"			"134"
+			"tall"			"36"
 			"wide"			"200"
 			"visible"		"1"
+			
+			"pin_to_sibling" 		"TotalGameCreditInfoPanel"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 
 		"RespecStatusLabel"

@@ -488,7 +488,8 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"300"	
-		"tall"			"184"		
+		"tall"			"184"
+		"tall_minmode"	"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
@@ -714,6 +715,7 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"0"
+		"xpos_minmode"	"999"
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"594"
@@ -738,6 +740,7 @@
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"0"
+		"xpos_minmode"	"999"
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"594"
@@ -1275,6 +1278,15 @@
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
 		
+		if_mvm
+ 		{
+			"xpos"			"c-260"
+			"ypos"			"r95"
+			"wide"			"520"
+			"tall"			"100"
+ 			"visible"		"1"
+ 		}
+		
 		"StatBackBG"
 		{
 			"ControlName"	"CExLabel"
@@ -1293,12 +1305,15 @@
 			"fgcolor"		"255 255 255 0"
 			"bgcolor_override"	"24 24 24 210"
 			"paintbackgroundtype"	"2"
+			
+			if_mvm
+			{
+				"wide"			"520"
+				"tall"			"100"
+			}
 		}
 		
-		if_mvm
- 		{
- 			"visible"		"0"
- 		}
+		
 	}
 	
 	"StatBackPanel2"
@@ -1361,8 +1376,11 @@
 		
 		if_mvm
 		{
-			"xpos"		"9999"
-			"visible"	"0"
+			"xpos"		"c-260"
+			"ypos"		"r90"
+			"wide"		"520"
+			"tall"		"90"
+			"visible"	"1"
 		}
 
 		"KillsLabel"
@@ -1382,6 +1400,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"ypos"		"22"
+			}
 		}						
 		"DeathsLabel"
 		{
@@ -1400,6 +1423,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"ypos"		"42"
+			}
 		}			
 		"Kills"
 		{
@@ -1437,6 +1465,11 @@
 			"enabled"		"1"
 			"bgcolor_override"	"0 0 0 0"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"ypos"		"22"
+			}
 		}
 		
 		"Deaths"
@@ -1473,6 +1506,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"ypos"		"42"
+			}
 		}
 		
 		"HealingLabel"
@@ -1491,6 +1529,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"95"
+				"ypos"		"22"
+			}
 		}			
 		"Healing"
 		{
@@ -1527,6 +1571,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"xpos"		"174"
+				"ypos"		"22"
+			}
 		}	
 		"DamageLabel"
 		{
@@ -1545,6 +1595,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"0 0 0 0"
+			
+			if_mvm
+			{
+				"xpos"		"95"
+				"ypos"		"42"
+			}
 		}
 		"Damage"
 		{
@@ -1583,6 +1639,12 @@
 			"enabled"		"1"
 			"bgcolor_override"	"0 0 0 0"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"xpos"		"174"
+				"ypos"		"42"
+			}
 		}
 		
 		
@@ -1602,6 +1664,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}		
 		"Captures"
 		{
@@ -1638,6 +1705,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}	
 		"DefensesLabel"
 		{
@@ -1655,6 +1727,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}	
 		"Defenses"
 		{
@@ -1691,6 +1768,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}	
 		"DominationLabel"
 		{
@@ -1708,6 +1790,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		"Domination"
 		{
@@ -1744,6 +1831,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}		
 		"RevengeLabel"
 		{
@@ -1761,6 +1853,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}					
 		"Revenge"
 		{
@@ -1797,6 +1894,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		
 		
@@ -1816,6 +1918,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		"Assists"
 		{
@@ -1852,6 +1959,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		"InvulnLabel"
 		{
@@ -1869,6 +1981,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		"Invuln"
 		{
@@ -1905,6 +2022,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		"HeadshotsLabel"
 		{
@@ -1922,6 +2044,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}		
 		"Headshots"
 		{
@@ -1958,6 +2085,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		"BackstabsLabel"
 		{
@@ -1975,6 +2107,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		"Backstabs"
 		{
@@ -2011,6 +2148,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		
 		
@@ -2030,6 +2172,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		"Destruction"
 		{
@@ -2066,6 +2213,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}	
 		"TeleportsLabel"
 		{
@@ -2083,6 +2235,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		"Teleports"
 		{
@@ -2119,6 +2276,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}		
 		"BonusLabel"
 		{
@@ -2137,6 +2299,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		"Bonus"
 		{
@@ -2173,6 +2340,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		"SupportLabel"
 		{
@@ -2190,6 +2362,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		"Support"
 		{
@@ -2228,6 +2405,11 @@
 			"enabled"		"1"
 			"fgcolor_override"	"WhiteColor"
 			"bgcolor_override"	"0 0 0 0"
+			
+			if_mvm
+			{
+				"visible"	"0"
+			}
 		}
 		
 		"GameType"

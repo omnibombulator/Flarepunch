@@ -241,6 +241,36 @@
 		"PaintBackgroundType"	"0"
 	}	
 	
+	"HudMenuEngyBuild"
+	{
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+	}
+	
+	"HudMenuEngyDestroy"
+	{
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+	}
+
+	"HudEurekaEffectTeleportMenu"
+	{
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+	}
+	
 	BuildingStatus_Spy
 	{
 		"xpos"		"-8"	[$WIN32]
@@ -405,6 +435,19 @@
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
 		"ItemFontPulsing"		"Default"
+	}
+	
+	HudStopWatch
+	{
+		"fieldName"				"HudStopWatch"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"ypos_minmode"			"0"
+		"ypos_lodef"			"0"
+		"wide"					"f0"
+		"tall"					"480"
 	}
 	
 	// Killfeed
