@@ -24,7 +24,10 @@ Scheme
 	{
 		// Team Colors
 		"BlueTeamColor"		"33 150 243 255"
+		"BlueTeamColorDark"	"25 118 210 255"
+		
 		"RedTeamColor"		"244 67 54 255"
+		"RedTeamColorDark"	"211 47 47 255"
 		
 		// Standard Colors
 		"WhiteColor"		"255 255 255 255" // TanLight should reflect this

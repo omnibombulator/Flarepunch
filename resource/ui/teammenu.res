@@ -107,7 +107,7 @@
 		"fgcolor"		"255 255 255 255"
 		
 		"border_default"			"ButtonBlueTeam"
-		"border_armed"				"ButtonDefault"
+		"border_armed"				"ButtonBlueTeamDark"
 	}
 
 	"teambutton1"
@@ -136,7 +136,7 @@
 		"fgcolor"		"255 255 255 255"
 		
 		"border_default"			"ButtonRedTeam"
-		"border_armed"				"ButtonDefault"
+		"border_armed"				"ButtonRedTeamDark"
 	}
 
 	"teambutton2"

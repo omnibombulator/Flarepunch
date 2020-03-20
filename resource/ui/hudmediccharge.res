@@ -72,63 +72,80 @@
 		
 		"bgcolor_override"	"BlackColor"
 		"fgcolor_override" 	"WhiteColor"
-	}		
+	}
+
+	"CenterAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"CenterAnchor"
+		"xpos"			"c0"
+		"ypos"			"c108"
+		"zpos"			"100"
+		"wide"			"0"
+		"tall"			"2"
+		"visible"		"1"
+		"bgcolor_override"	"255 0 0 255"
+	}	
 
 	"ChargeMeter1"
 	{		
-		"xpos"			"c-40"
-		"xpos_minmode"	"c-40"
-		"ypos"			"c108"
-		"ypos_minmode"	"c108"
+		"xpos"			"2"
+		"xpos_minmode"	"1"
+		"ypos"			"0"
+		"ypos_minmode"	"0"
 		"zpos"			"1"
-		"wide"			"20"
+		"wide"			"19"
 		"tall"			"2"	
-		
-		"bgcolor_override"		"BlackColor"
-	}
-
-	"ChargeMeter2"
-	{	
-		"xpos"			"0"
-		"xpos_minmode"	"0"
-		"ypos"			"0"
-		"ypos_minmode"	"0"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"2"
-		
-		"bgcolor_override"		"BlackColor"
-		
-		"pin_to_sibling" "ChargeMeter1"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-	}
-
-	"ChargeMeter3"
-	{	
-		"xpos"			"0"
-		"xpos_minmode"	"0"
-		"ypos"			"0"
-		"ypos_minmode"	"0"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"2"
 		
 		"bgcolor_override"		"BlackColor"
 		
 		"pin_to_sibling" "ChargeMeter2"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
+
+	"ChargeMeter2"
+	{	
+		"xpos"			"1"
+		"xpos_minmode"	"0"
+		"ypos"			"0"
+		"ypos_minmode"	"0"
+		"zpos"			"1"
+		"wide"			"19"
+		"tall"			"2"
+		
+		"bgcolor_override"		"BlackColor"
+		
+		"pin_to_sibling" "CenterAnchor"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
+
+	"ChargeMeter3"
+	{	
+		"xpos"			"1"
+		"xpos_minmode"	"0"
+		"ypos"			"0"
+		"ypos_minmode"	"0"
+		"zpos"			"1"
+		"wide"			"19"
+		"tall"			"2"
+		
+		"bgcolor_override"		"BlackColor"
+		
+		"pin_to_sibling" "CenterAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 
 	"ChargeMeter4"
 	{	
-		"xpos"			"0"
+		"xpos"			"2"
 		"xpos_minmode"	"0"
 		"ypos"			"0"
 		"ypos_minmode"	"0"
 		"zpos"			"1"
-		"wide"			"20"
+		"wide"			"19"
 		"tall"			"2"
 		
 		"bgcolor_override"		"BlackColor"

@@ -90,3 +90,5 @@ event HudMatchStatus_ShowMatchStartDoors
 	
 	SetVisible CountdownBG 0 11
 }
+
+

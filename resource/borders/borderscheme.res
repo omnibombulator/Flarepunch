@@ -120,11 +120,37 @@ Scheme
 			"draw_corner_height" 	"8"		
 		}
 		
+		ButtonBlueTeamDark
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"BlueTeamColorDark"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"		
+		}
+		
 		ButtonRedTeam
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			"color"					"RedTeamColor"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"		
+		}
+		
+		ButtonRedTeamDark
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"RedTeamColorDark"
 			
 			"image"					"replay/thumbnails/MaterialPanel"
 			"src_corner_height"		"32"				// pixels inside the image

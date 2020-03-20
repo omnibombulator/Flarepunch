@@ -120,6 +120,7 @@
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
 		"fgcolor"		"WhiteColor"
+		"wrap"			"1"
 		
 		"pin_to_sibling" 		"MapInfoType"
 		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element

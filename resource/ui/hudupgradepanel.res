@@ -561,7 +561,7 @@
 			"font"			"Size 15"
 			"labelText"		"%credits%"
 			"textAlignment"	"east"
-			"xpos"			"102"
+			"xpos"			"86"
 			"ypos"			"0"
 			"wide"			"50"
 			"tall"			"20"
