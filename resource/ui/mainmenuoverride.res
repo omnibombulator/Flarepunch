@@ -1684,7 +1684,7 @@
 		"tall"			"25"
 		"autoResize"		"0"
 		"pinCorner"		"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"textinsetx"		"25"
