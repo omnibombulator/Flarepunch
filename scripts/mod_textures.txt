@@ -1,0 +1,177 @@
+// Default
+#base "../default/scripts/mod_textures.txt"
+
+"sprites/640_hud"
+{
+	TextureData
+	{
+		"obj_status_upgrade_1"
+		{
+			"file"	"vgui/replay/thumbnails/upgrade_1"
+			"x"		"0"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
+		}
+		"obj_status_upgrade_2"
+		{
+			"file"	"vgui/replay/thumbnails/upgrade_2"
+			"x"		"0"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
+		}
+		"obj_status_upgrade_3"
+		{
+			"file"	"vgui/replay/thumbnails/upgrade_3"
+			"x"		"0"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
+		}
+		"ico_wrench"
+		{	
+			"file"		"vgui/replay/thumbnails/ico_wrench"
+			"x"		"0"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
+		}
+		
+		
+		"engie_sentry_1"
+		{
+			"file"	"vgui/replay/thumbnails/engie_sentry_1"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"engie_sentry_2"
+		{
+			"file"	"vgui/replay/thumbnails/engie_sentry_2"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"engie_sentry_3"
+		{
+			"file"	"vgui/replay/thumbnails/engie_sentry_3"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"engie_dispenser"
+		{
+			"file"	"vgui/replay/thumbnails/engie_dispenser"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"engie_tele_in"
+		{
+			"file"	"vgui/replay/thumbnails/engie_tele_in"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"engie_tele_out"
+		{
+			"file"	"vgui/replay/thumbnails/engie_tele_out"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"128"
+		}
+		
+		"spy_sapper"
+		{
+			"file"	"vgui/replay/thumbnails/spy_sapper"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		"obj_attachment_sapper"
+		{
+				"file"		"sprites/bucket_sapper"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"	"128"
+		}
+		
+		"obj_attachment_sapper"
+		{
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"64"
+				"width"		"96"
+				"height"	"32"
+		}
+		
+		"obj_status_sapper"
+		{
+			"file"	"HUD/hud_obj_status_sapper"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		"obj_status_icon_sapper"
+		{
+			"file"		"HUD/hud_obj_status_sapper"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		"psapper"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"256"
+				"y"		"480"
+				"width"		"128"
+				"height"	"32"
+		}
+		
+	}
+}

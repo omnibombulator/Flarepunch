@@ -10,9 +10,9 @@
 		"fieldName"		"MVMCriteria"
 		"xpos"			"r0"
 		"ypos"			"20"
-		"zpos"			"1002"
+		"zpos"			"10005"
 		"wide"			"420"
-		"tall"			"f70"
+		"tall"			"f20"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -21,11 +21,11 @@
 	{
 		"ControlName"	"CMVMCriteriaPanel"
 		"fieldName"		"criteria"
-		"xpos"			"5"
-		"ypos"			"15"
-		"zpos"			"100"
-		"wide"			"410"
-		"tall"			"f50"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"99"
+		"wide"			"420"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -37,10 +37,10 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
 		"xpos"			"6"
-		"ypos"			"rs1-8"
+		"ypos"			"rs1-6"
 		"zpos"			"100"
 		"wide"			"90"
-		"tall"			"20"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -59,6 +59,14 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border"			"ButtonDefaultLight"
+		"border_override"	"ButtonDefaultLight"
+		"border_default"	"ButtonDefaultLight"
+		"border_armed"		"ButtonHoverLight"
+		
+		"paintbackground"	"0"
+		"paintborder"		"1"
 	}
 	
 	"MannUpToolTipButtonHack"
@@ -83,10 +91,10 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"MannUpQueueButton"
 		"xpos"			"106"
-		"ypos"			"rs1-8"
-		"zpos"			"100"
+		"ypos"			"rs1-6"
+		"zpos"			"102"
 		"wide"			"170"
-		"tall"			"20"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -108,6 +116,14 @@
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"
+		
+		"border"			"ButtonDefaultLight"
+		"border_override"	"ButtonDefaultLight"
+		"border_default"	"ButtonDefaultLight"
+		"border_armed"		"ButtonHoverLight"
+		
+		"paintbackground"	"0"
+		"paintborder"		"1"
 	}
 	
 	"BootCampToolTipButtonHack"
@@ -115,7 +131,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BootCampToolTipButtonHack"
 		"xpos"			"5"
-		"ypos"			"rs1-8"
+		"ypos"			"rs1-6"
 		"zpos"			"101"
 		"wide"			"270"
 		"tall"			"20"
@@ -132,10 +148,10 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BootCampQueueButton"
 		"xpos"			"5"
-		"ypos"			"rs1-8"
-		"zpos"			"100"
+		"ypos"			"rs1-6"
+		"zpos"			"102"
 		"wide"			"270"
-		"tall"			"20"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -157,6 +173,14 @@
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"
+		
+		"border"			"ButtonDefaultLight"
+		"border_override"	"ButtonDefaultLight"
+		"border_default"	"ButtonDefaultLight"
+		"border_armed"		"ButtonHoverLight"
+		
+		"paintbackground"	"0"
+		"paintborder"		"1"
 	}
 
 	"NextButton"
@@ -164,16 +188,16 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
 		"xpos"			"cs-0.5"
-		"ypos"			"rs1-8"
-		"zpos"			"100"
-		"wide"			"f20"
-		"tall"			"20"
+		"ypos"			"rs1-6"
+		"zpos"			"102"
+		"wide"			"f12"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"Size 22"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -186,6 +210,14 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border"			"ButtonDefaultLight"
+		"border_override"	"ButtonDefaultLight"
+		"border_default"	"ButtonDefaultLight"
+		"border_armed"		"ButtonHoverLight"
+		
+		"paintbackground"	"0"
+		"paintborder"		"1"
 	}
 
 	"JoinLateCheckButton"
@@ -194,7 +226,7 @@
 		"fieldName"		"JoinLateCheckButton"
 		"xpos"		"rs1"
 		"ypos"		"rs1-9"
-		"zpos"		"50"
+		"zpos"		"100"
 		"wide"		"140"
 		"tall"		"20"
 		"font"			"HudFontSmallest"
@@ -208,7 +240,7 @@
 		"fieldName"		"JoinLateLabel"
 		"xpos"		"rs1"
 		"ypos"		"rs1-9"
-		"zpos"		"50"
+		"zpos"		"100"
 		"wide"		"115"
 		"tall"		"20"
 		"font"			"HudFontSmallest"

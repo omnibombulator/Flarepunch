@@ -10,9 +10,9 @@
 		"fieldName"		"PingPanel"
 		"xpos"			"-300"
 		"ypos"			"20"
-		"zpos"			"1001"
+		"zpos"			"10001"
 		"wide"			"300"
-		"tall"			"f70"
+		"tall"			"f20"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -27,27 +27,29 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"f0"
+		"wide"			"260"
 		"tall"			"p1"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"MenuBorderBlack"
 		"proportionaltoparent"	"1"
+		"bgcolor_override"	"SecondaryBar"
+		"paintbackground"	"0"
 	}
 
 	"Title"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"13"
-		"ypos"		"20"
+		"xpos"		"35"
+		"ypos"		"6"
 		"zpos"		"99"
-		"wide"		"f0"
-		"tall"		"20"
+		"wide"		"230"
+		"tall"		"24"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_OpenSettings"
 		"textAlignment"	"west"
-		"font"			"HudFontMediumBold"
+		"font"			"Size 24"
 		"fgcolor_override"	"TanDark"
 		
 		"mouseinputenabled"	"0"
@@ -57,15 +59,15 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"InviteModeLabel"
-		"xpos"		"26"
-		"ypos"		"50"
+		"xpos"		"10"
+		"ypos"		"35"
 		"zpos"		"3"
-		"wide"		"208"
+		"wide"		"90"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_InviteMode"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"Size 12"
 		"smallcheckimage"	"1"
 		"fgcolor_override"	"TanDark"
 
@@ -77,92 +79,108 @@
 	{
 	//	"ControlName"	"ComboBox"
 		"fieldName"		"InviteModeComboBox"
-		"xpos"			"26"
-		"ypos"			"66"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"200"
+		"wide"			"140"
 		"tall"			"15"
 		"textAlignment"	"west"
 		"font"			"HudFontSmallestBold"
 		"keyboardinputenabled"	"0"
 
 		"editable"		"0"
-		"bgcolor_override"	"0 0 0 255"
-		"fgcolor_override"	"235 226 202 255"
-		"disabledFgColor_override" "235 226 202 255"
+		"bgcolor_override"	"0 0 0 0"
+		"fgcolor_override"	"SecondaryText"
+		"disabledFgColor_override" "SecondaryLink"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "SecondaryText"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
+		
+		"pin_to_sibling" "InviteModeLabel"
+		"pin_corner_to_sibling" "PIN_CENTER_LEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_CENTER_RIGHT" // Corner of Element you are pinning to
 	}
 
 	"IgnorePartyInvites"
 	{
 		"ControlName"		"CvarToggleCheckButton"
 		"fieldName"		"IgnorePartyInvites"
-		"xpos"		"23"
-		"ypos"		"80"
+		"xpos"		"3"
+		"ypos"		"0"
 		"zpos"		"3"
 		"wide"		"208"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_IgnoreInvites"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"Size 12"
 		"smallcheckimage"	"1"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
 
 		"cvar_name" "tf_party_ignore_invites"
+		
+		"pin_to_sibling" "InviteModeLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
 	}
 
 	"KeepPartyOnSameTeam"
 	{
 		"ControlName"		"CvarToggleCheckButton"
 		"fieldName"		"KeepPartyOnSameTeam"
-		"xpos"		"23"
-		"ypos"		"95"
+		"xpos"		"0"
+		"ypos"		"0"
 		"zpos"		"3"
 		"wide"		"250"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"Size 12"
 		"smallcheckimage"	"1"
 		"enabled"	"0"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
+		
+		"pin_to_sibling" "IgnorePartyInvites"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
 	}
 
 	"KeepPartyOnSameTeamLabel"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"KeepPartyOnSameTeamLabel"
-		"xpos"		"42"
-		"ypos"		"95"
+		"xpos"		"-19"
+		"ypos"		"0"
 		"zpos"		"3"
-		"wide"		"250`"
+		"wide"		"250"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_PartySameTeam"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"Size 12"
 		"smallcheckimage"	"1"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
 		"fgcolor_override"		"TanDark"
+		
+		"pin_to_sibling" "KeepPartyOnSameTeam"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
 	}
 
 	"CustomPingCheckButton"
 	{
 		"ControlName"		"CvarToggleCheckButton"
 		"fieldName"		"CustomPingCheckButton"
-		"xpos"		"23"
-		"ypos"		"110"
+		"xpos"		"0"
+		"ypos"		"0"
 		"zpos"		"3"
 		"wide"		"208"
 		"tall"		"20"
@@ -177,6 +195,10 @@
 		"button_activation_type"	"1"
 
 		"cvar_name"	"tf_mm_custom_ping_enabled"
+		
+		"pin_to_sibling" "KeepPartyOnSameTeam"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
 	}
 
 	// VGUI is weird and makes some checkboxes have their text lower than it's supposed to be
@@ -185,65 +207,77 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"CheckLabel"
-		"xpos"		"42"
-		"ypos"		"110"
+		"xpos"		"-19"
+		"ypos"		"0"
 		"zpos"		"3"
 		"wide"		"208"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_LobbyContainer_CustomPingButton"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"Size 12"
 		"smallcheckimage"	"1"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
+		
+		"pin_to_sibling" "CustomPingCheckButton"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
 	}
 
 	"DescLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DescLabel"
-		"xpos"		"43"
-		"ypos"		"127"
+		"xpos"		"-3"
+		"ypos"		"4"
 		"zpos"		"3"
 		"wide"		"p0.81"
-		"tall"		"45"
+		"tall"		"40"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_LobbyContainer_CustomPingDesc"
 		"textAlignment"	"north-west"
-		"font"			"HudFontSmallest"
+		"font"			"Size 12"
 		"wrap"		"1"
-		"fgcolor"		"117 107 94 255"
+		"fgcolor"		"SecondaryText"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
+		
+		"pin_to_sibling" "CustomPingCheckButton"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
 	}
 
 	"CurrentPingLabel"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"CurrentPingLabel"
-		"xpos"		"27"
-		"ypos"		"156"
+		"xpos"		"0"
+		"ypos"		"0"
 		"zpos"		"0"
-		"wide"		"f0"
+		"wide"		"260"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"Size 20"
 		
 		"mouseinputenabled"	"0"
+		
+		"pin_to_sibling" "DescLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
 	}
 
 	"PingSlider"
 	{
 		"ControlName"		"CCvarSlider"
 		"fieldName"		"PingSlider"
-		"xpos"		"rs1-10"
-		"ypos"		"175"
-		"wide"		"f40"
+		"xpos"		"0"
+		"ypos"		"-25"
+		"wide"		"f60"
 		"tall"		"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -257,16 +291,20 @@
 
 		"cvar_name"	"tf_mm_custom_ping"
 		"use_convar_minmax" "1"
+		
+		"pin_to_sibling" "CurrentPingLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
 	}
 
 	"DataCenterContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DataCenterContainer"
-		"xpos"			"rs1-10"
-		"ypos"			"200"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"f37"
+		"wide"			"f60"
 		"tall"			"f220"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -274,6 +312,10 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"proportionaltoparent"	"1"
+		
+		"pin_to_sibling" "PingSlider"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
 
 		"DataCenterList"
 		{
@@ -333,6 +375,7 @@
 			"proportionaltoparent"	"1"
 			"border"		"InnerShadowBorder"
 			"mouseinputenabled"	"0"
+			"paintborder"	"0"
 		}
 			
 		"Background"
@@ -349,7 +392,7 @@
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"
-			"border"		"ReplayDefaultBorder"
+			"border"		"MenuBorderBackground"
 		}
 	}
 }

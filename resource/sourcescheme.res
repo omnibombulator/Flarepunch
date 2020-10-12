@@ -4,6 +4,11 @@
 
 // NOTE: You'll need to restart the game if you edit this file while in game.
 
+#base "borders/borderscheme.res"
+#base "colors/colorscheme.res"
+#base "extras/credit/font.res"
+#base "extras/icons/fog.res"
+#base "extras/icons/font.res"
 
 // Don't Touch This!
 #base "SourceSchemeBase.res"

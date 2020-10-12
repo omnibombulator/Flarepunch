@@ -8,17 +8,6 @@ hudanimations_manifest
 	// ----------------------------------------------------------------------
 	
 	// Crosshair Animations
-	// Uncomment the animation you wish to use (dependent on crosshair)
-	
-	//"file"		"resource/crosshairs/animations/broesel_animations.txt"
-	
-	//"file"		"resource/crosshairs/animations/fog_animations.txt"
-	
-	//"file"		"resource/crosshairs/animations/knuckles_animations.txt"
-	
-	//"file"		"resource/crosshairs/animations/toonhud_animations.txt"
-	
-	//"file"		"resource/crosshairs/animations/whahay_animations.txt"
 	
 	// ----------------------------------------------------------------------
 	

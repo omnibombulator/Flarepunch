@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"Size 11Bold"
+		"font"			"Size 11"
 		"labelText"		"%header%"
 		"textAlignment" "north-west"
 		"xpos"			"0"

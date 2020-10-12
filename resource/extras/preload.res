@@ -1,5 +1,15 @@
 "Resource/UI/MainMenuOverride.res"
 {
+	"BTCross"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BTCross"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/btcross"
+	}
+	
 	"CartBlue"
 	{
 		"ControlName"	"ImagePanel"
@@ -619,4 +629,54 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_cap_red_up"
 	}
+	
+	"cpcapredup"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpcapredup"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_cap_red_up"
+	}
+	
+	"cpcapredup"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpcapredup"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_cap_red_up"
+	}
+	
+	//"upgrade1"
+	//{
+	//	"ControlName"	"ImagePanel"
+	//	"fieldName"		"upgrade1"
+	//	"xpos"			"9999"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"image"			"../hud/hud_upgrade_1"
+	//}
+	
+	//"upgrade2"
+	//{
+	//	"ControlName"	"ImagePanel"
+	//	"fieldName"		"upgrade2"
+	//	"xpos"			"9999"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"image"			"../hud/hud_upgrade_1"
+	//}
+	
+	//"upgrade3"
+	//{
+	//	"ControlName"	"ImagePanel"
+	//	"fieldName"		"upgrade3"
+	//	"xpos"			"9999"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"image"			"../hud/hud_upgrade_1"
+	//}
 }

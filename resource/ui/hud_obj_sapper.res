@@ -25,8 +25,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"obj_status_sapper"
-		"iconColor"		"255 255 255 255"
+		"icon"			"spy_sapper"
+		"iconColor"		"WhiteColor"
 	}
 	
 	"NotBuiltPanel"
@@ -77,7 +77,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"obj_status_sentrygun_1"
-				"iconColor"		"255 255 255 255"
+				"iconColor"		"WhiteColor"
 			}
 			
 			"TargetHealth"

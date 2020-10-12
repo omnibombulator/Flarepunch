@@ -1,168 +1,7 @@
 Scheme
 {
 	Fonts
-	{
-		"Class 1"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"1"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Class 1 Blur"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"1"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Class 2"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"2"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Class 2 Blur"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"2"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Class 3"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"3"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Class 3 Blur"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"3"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Class 4"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"4"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Class 4 Blur"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"4"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Class 5"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"5"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Class 5 Blur"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"5"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Class 6"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"6"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Class 6 Blur"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"6"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Class 7"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"7"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Class 7 Blur"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"7"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
+	{		
 		"Class 8"
 		{
 			"1"
@@ -1244,302 +1083,14 @@ Scheme
 			}
 		}
 		
-		"Class 55"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"55"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Class 55 Blur"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"55"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Class 56"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"56"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Class 56 Blur"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"56"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Class 57"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"57"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Class 57 Blur"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"57"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Class 58"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"58"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Class 58 Blur"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"58"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Class 59"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"59"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Class 59 Blur"
-		{
-			"1"
-			{
-				"name"		"Hudas Iscariote"
-				"tall"		"59"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-	
-		"MIcon 1"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"1"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 1 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"1"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"MIcon 2"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"2"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 2 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"2"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"MIcon 3"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"3"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 3 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"3"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"MIcon 4"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"4"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 4 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"4"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"MIcon 5"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"5"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 5 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"5"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"MIcon 6"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"6"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 6 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"6"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"MIcon 7"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"7"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 7 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"7"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
 		"MIcon 8"
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"8"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 8 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"8"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1547,22 +1098,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"9"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 9 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"9"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1570,22 +1109,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"10"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 10 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"10"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1593,22 +1120,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"11"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 11 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"11"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1616,22 +1131,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"12"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 12 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"12"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1639,22 +1142,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"13"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 13 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"13"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1662,22 +1153,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"14"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 14 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"14"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1685,22 +1164,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"15"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 15 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"15"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1708,22 +1175,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"16"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 16 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"16"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1731,22 +1186,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"17"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 17 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"17"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1754,22 +1197,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"18"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 18 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"18"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1777,22 +1208,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"19"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 19 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"19"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1800,22 +1219,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"20"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 20 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"20"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1823,22 +1230,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"21"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 21 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"21"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1846,22 +1241,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"22"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 22 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"22"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1869,22 +1252,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"23"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 23 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"23"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1892,22 +1263,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"24"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 24 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"24"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1915,22 +1274,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"25"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 25 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"25"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1938,22 +1285,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"26"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 26 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"26"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1961,22 +1296,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"27"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 27 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"27"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -1984,22 +1307,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"28"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 28 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"28"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2007,22 +1318,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"29"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 29 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"29"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2030,22 +1329,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"30"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 30 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"30"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2053,22 +1340,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"31"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 31 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"31"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2076,22 +1351,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"32"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 32 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"32"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2099,22 +1362,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"33"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 33 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"33"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2122,22 +1373,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"34"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 34 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"34"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2145,22 +1384,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"35"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 35 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"35"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2168,22 +1395,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"36"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 36 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"36"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2191,22 +1406,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"37"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 37 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"37"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2214,22 +1417,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"38"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 38 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"38"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2237,22 +1428,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"39"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 39 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"39"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2260,22 +1439,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"40"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 40 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"40"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2283,22 +1450,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"41"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 41 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"41"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2306,22 +1461,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"42"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 42 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"42"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2329,22 +1472,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"43"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 43 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"43"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2352,22 +1483,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"44"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 44 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"44"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2375,22 +1494,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"45"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 45 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"45"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2398,22 +1505,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"46"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 46 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"46"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2421,22 +1516,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"47"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 47 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"47"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2444,22 +1527,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"48"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 48 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"48"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2467,22 +1538,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"49"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 49 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"49"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2490,22 +1549,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"50"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 50 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"50"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2513,22 +1560,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"51"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 51 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"51"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2536,22 +1571,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"52"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 52 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"52"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2559,22 +1582,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"53"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 53 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"53"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 		
@@ -2582,137 +1593,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hud_font_a1"
+				"name"		"hud_font_a3"
 				"tall"		"54"
 				"additive"  "0"
 				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 54 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"54"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"MIcon 55"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"55"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 55 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"55"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"MIcon 56"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"56"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 56 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"56"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"MIcon 57"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"57"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 57 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"57"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"MIcon 58"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"58"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 58 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"58"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"MIcon 59"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"59"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"MIcon 59 Blur"
-		{
-			"1"
-			{
-				"name"		"hud_font_a1"
-				"tall"		"59"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
 			}
 		}
 	}
@@ -2727,8 +1611,8 @@ Scheme
 		}
 		"97"
 		{
-			"font" "resource/extras/icons/hud_font_a1.ttf"
-			"name" "hud_font_a1"
+			"font" "resource/extras/icons/hud_font_a3.ttf"
+			"name" "hud_font_a3"
 		}
 	}
 }

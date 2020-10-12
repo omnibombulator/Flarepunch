@@ -24,8 +24,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"obj_status_tele_entrance"
-		"iconColor"		"255 255 255 255"
+		"icon"			"engie_tele_out"
+		"iconColor"		"WhiteColor"
 	}
 	
 	"NotBuiltPanel"

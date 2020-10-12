@@ -9,167 +9,6 @@ Scheme
 		//////////////////// Main Font //////////////////////////////
 		//
 		
-		"Size 1"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"1"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Size 1 Blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"1"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Size 2"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"2"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Size 2 Blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"2"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Size 3"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"3"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Size 3 Blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"3"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Size 4"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"4"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Size 4 Blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"4"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Size 5"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"5"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Size 5 Blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"5"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Size 6"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"6"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Size 6 Blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"6"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
-		"Size 7"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"7"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}
-		
-		"Size 7 Blur"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"7"
-				"additive"  "0"
-				"antialias"	"1"
-				"blur"		"2"
-			}
-		}
-		
 		"Size 8"
 		{
 			"1"
@@ -1557,54 +1396,7 @@ Scheme
 			}
 		}
 		
-		CenterPrintText
-		{
-			// note that this scales with the screen resolution
-			"1"
-			{
-				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
-				"tall"		"18"
-			}
-		}
-
-		"PlayerPanelPlayerName"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"6"
-			}
-		}
-		HudHintText
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[$X360]
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-			}
-		}
+		
 		"HudFontGiant"
 		{
 			"1"
@@ -1771,7 +1563,7 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"16"
+				"tall"		"12"
 			}
 		}
 		"HudFontSmallestShadow"
@@ -1876,41 +1668,6 @@ Scheme
 				"tall_lodef"	"22"
 			}
 		}
-		"SpectatorKeyHints"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-			}
-		}
-		"ClockSubText"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"9"
-			}
-		}
-		"ClockSubTextSuddenDeath"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"tall_hidef"	"9"
-				"tall_lodef"	"10"
-			}
-		}
-		"ClockSubTextTiny"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"tall_hidef"	"7"
-			}
-		}
 		"HudSelectionText"
 		{
 			"1"
@@ -1940,103 +1697,6 @@ Scheme
 				"tall"		"24"
 			}
 		}
-		DebugOverlay
-		{
-			"1"	[$WIN32]
-			{
-				"name"		"Courier New"
-				"tall"		"14"
-			}
-			"1"	[$X360]
-			{
-				"name"		"Tahoma"
-				"tall"		"18"
-			}
-		}		
-		TFTypeDeath
-		{
-			"1"
-			{
-				"name"  	"tfd" // tfd.ttf
-				"tall"  	"28"
-			}
-		}
-		
-		Icons
-		{
-			"1"
-			 {
-				"name"  	"Team Fortress" // tf.ttf
-				"tall"  	"28"
-			}
-		}
-		"BetaFont"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"90"
-			}
-		}
-
-		HudNumbers
-		{
-			"1"
-			{
-				"name"  "Team Fortress" // tf.ttf
-				"tall"  "28"
-			}
-			"2"
-			{
-				"name"  "Verdana"
-				"tall"  "28"
-			}
-		}
-		"CloseCaption_Normal"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
-			}
-		}
-		"CloseCaption_Italic"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
-			}
-		}
-		"CloseCaption_Bold"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
-			}
-		}
-		"CloseCaption_BoldItalic"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
-			}
-		}
-		"CloseCaption_Small"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"16"
-				"tall_hidef"	"24"
-			}
-		}
 
 		"MenuMainTitle"
 		{
@@ -2062,18 +1722,7 @@ Scheme
 				"name"		"Product Sans"
 				"tall"		"12"
 			}
-		}
-		
-		"GoalText"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"tall_hidef"	"14"
-				"tall_lodef"	"17"
-			}
-		}		
+		}	
 		
 		"ChalkboardTitle"
 		{
@@ -2260,34 +1909,6 @@ Scheme
 			}
 		}
 		
-		"TargetID"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-			}
-		}
 		"ChatFont"
 		{
 			"1"
@@ -2363,16 +1984,6 @@ Scheme
 				"weight"	"500"
 			}
 		}
-
-		MenuSmallestFont
-		{
-			"1"
-			{
-				"name"			"Arial Black"
-				"tall"			"8"
-				"tall_lodef"	"12"
-			}
-		}	
 		
 		MenuSmallFont
 		{
@@ -2398,38 +2009,7 @@ Scheme
 				"name"		"Product Sans"
 				"tall"		"8"
 			}
-		}
-
-		TFFontSmall
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"12"
-			}
-		}		
-		TFFontMedium
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"9"
-				"tall_hidef"	"10"
-				"tall_lodef"	"16"
-			}
-		}		
-		
-		InstructionalText
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"11"  [!$OSX]
-				"tall"		"9"  [$OSX]
-			}
-		}		
+		}	
 		
 		MatchmakingDialogTitle
 		{
@@ -2457,23 +2037,7 @@ Scheme
 				"tall"		"28"
 				"tall_lodef"	"24"
 			}
-		}
-		MatchmakingDialogMenuBrowserHostname
-		{
-			"1"			// brower item hostname
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"22"
-			}
-		}
-		MatchmakingDialogMenuBrowserDetails
-		{
-			"1"			// browser item players and map name
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"18"
-			}
-		}		
+		}	
 		MatchmakingDialogMenuMedium
 		{
 			"1"
@@ -2488,32 +2052,6 @@ Scheme
 			{
 				"name"		"Product Sans"
 				"tall"		"18"
-			}
-		}
-		MatchmakingDialogMenuSmall
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"22"
-				"tall_lodef"		"18"
-			}
-		}
-		MatchmakingDialogMenuSmallest
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"18"
-				"tall_lodef"		"18"
-			}
-		}
-		RankingDialogHeaders
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"15"
 			}
 		}
 		
@@ -2540,39 +2078,8 @@ Scheme
 				"name"		"Product Sans"
 				"tall"		"18"
 			}
-		}			
-		"AchievementNotification"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"14"
-			}
-		}
-		"ImportToolSmallestBold"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"10"
-			}
-		}
-		"ImportToolSmallest"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"10"
-			}
-		}
-		"SpectatorVerySmall"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"7"
-			}
-		}
+		}	
+		
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
 		"DefaultVerySmallFallBack"
 		{
@@ -2682,93 +2189,6 @@ Scheme
 				"tall"		"9"
 			}
 		}
-		"AchievementTracker_Desc"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"7"
-			}
-		}
-		"QuestObjectiveTracker_Desc"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"7"
-			}
-		}
-		"QuestObjectiveTracker_DescGlow"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"7"
-			}
-		}
-		"QuestObjectiveTracker_DescBlur"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"7"
-			}
-		}
-		"ItemTrackerScore_InGame"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"7"
-			}
-		}
-
-		"QuestFlavorText"
-		{
-			"1"
-			{
-				"name"		"ocra"
-				"tall"		"10"
-			}
-			"2"
-			{
-				"name"		"ocra"
-				"tall"		"14"
-			}
-			"3"
-			{
-				"name"		"ocra"
-				"tall"		"18"
-			}
-		}
-
-		"QuestObjectiveText"
-		{
-			"1"
-			{
-				"name"		"ocra"
-				"tall"		"10"
-			}
-			"2"
-			{
-				"name"		"ocra"
-				"tall"		"14"
-			}
-			"3"
-			{
-				"name"		"ocra"
-				"tall"		"18"
-			}
-		}
-		
-		"QuestLargeText"
-		{
-			"1"
-			{
-				"name"		"ocra"
-				"tall"		"16"
-			}
-		}
 
 		"QuestStickyText"
 		{
@@ -2860,41 +2280,6 @@ Scheme
 			{
 				"name"		"Product Sans"
 				"tall"		"10"
-			}
-		}
-		
-		"AdFont_AdText"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-			}
-		}
-		"AdFont_PurchaseButton"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-			}
-		}
-
-		"TradeUp_Text"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-			}
-		}
-
-		"TradeUp_Quote"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"9"
 			}
 		}
 		

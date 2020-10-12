@@ -25,28 +25,38 @@
 
 	"CloseButton"
 	{
-		"xpos"			"r63"
-		"ypos"			"3"
-		"labelText"		"Close"
+		"xpos"			"r30"
+		"ypos"			"6"
+		"labelText"		"r"
 		
 		if_left
 		{
-			"xpos"			"3"
-			"labelText"		"Close"
+			"xpos"			"6"
+			"ypos"			"6"
+			
+			"wide"			"24"
+			"tall"			"24"
+			"labelText"		"r"
+			"font"			"MIcon 10"
+			
+			"border"			"CircleButtonLight"
+			"border_override"	"CircleButtonLight"
+			"border_default"	"CircleButtonLight"
+			"border_armed"		"CircleButtonHover"
 		}
 		
-		"wide"			"60"
-		"tall"			"20"
+		"wide"			"24"
+		"tall"			"24"
 		
 		"textAlignment"	"center"
-		"font"			"Size 11"
+		"font"			"MIcon 10"
 		
-		"AllCaps"		"1"
+		"AllCaps"		"0"
 		
-		"border"			"ButtonDefaultLight"
-		"border_override"	"ButtonDefaultLight"
-		"border_default"	"ButtonDefaultLight"
-		"border_armed"		"ButtonHoverLight"
+		"border"			"CircleButtonLight"
+		"border_override"	"CircleButtonLight"
+		"border_default"	"CircleButtonLight"
+		"border_armed"		"CircleButtonHover"
 
 		"armedFgColor_override"	"ButtonTextColorHover"
 	}

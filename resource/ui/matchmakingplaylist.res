@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"3"
 		"tall"			"45"
-		"wide"			"270"
+		"wide"			"230"
 		"proportionaltoparent"	"1"
 
 		"button_command"	"play_event"
@@ -21,7 +21,7 @@
 		"xpos"			"0"
 		"ypos"			"3"
 		"tall"			"45"
-		"wide"			"270"
+		"wide"			"230"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"main_menu/main_menu_button_casual"
@@ -43,7 +43,7 @@
 		"xpos"			"0"
 		"ypos"			"50"
 		"tall"			"45"
-		"wide"			"270"
+		"wide"			"230"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"main_menu/main_menu_button_competitive"
@@ -65,7 +65,7 @@
 		"xpos"			"0"
 		"ypos"			"97"
 		"tall"			"45"
-		"wide"			"270"
+		"wide"			"230"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"main_menu/main_menu_button_mvm"
@@ -87,7 +87,7 @@
 		"xpos"			"0"
 		"ypos"			"144"
 		"tall"			"45"
-		"wide"			"270"
+		"wide"			"230"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"main_menu/main_menu_button_community_server"
@@ -108,7 +108,7 @@
 		"xpos"			"0"
 		"ypos"			"191"
 		"tall"			"45"
-		"wide"			"270"
+		"wide"			"230"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"main_menu/main_menu_button_training"
@@ -129,7 +129,7 @@
 		"xpos"			"0"
 		"ypos"			"238"
 		"tall"			"45"
-		"wide"			"270"
+		"wide"			"230"
 		"proportionaltoparent"	"1"
 
 		"image_name"		"main_menu/main_menu_button_custom_server"

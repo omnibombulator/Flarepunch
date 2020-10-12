@@ -38,7 +38,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"CWhite"
+			"iconColor"		"WhiteColor"
 		}
 		
 		"BuildingPanel"

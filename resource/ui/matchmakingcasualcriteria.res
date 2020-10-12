@@ -127,7 +127,7 @@
 			"fieldName"		"GameModesList"
 			"xpos"			"cs-0.5"
 			"ypos"			"20"
-			"wide"			"f15"
+			"wide"			"f8"
 			"tall"			"f40"
 			"visible"		"1"
 			"proportionaltoparent"	"1"

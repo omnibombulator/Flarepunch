@@ -10,28 +10,28 @@
 		"fieldName"		"ExpandableList"
 		"xpos"			"r0"
 		"ypos"			"20"
-		"zpos"			"1001"
-		"wide"			"280"
-		"tall"			"f70"
+		"zpos"			"10003"
+		"wide"			"240"
+		"tall"			"f20"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
 
 	"Title"
 	{
-		"xpos"			"3"
-		"ypos"			"-5"
+		"xpos"			"6"
+		"ypos"			"6"
 		
-		"wide"			"f0"
-		"tall"			"50"
+		"wide"			"f40"
+		"tall"			"24"
 		
-		"labeltext"		"Play"
+		"labeltext"		"Find A Game"
 		
-		"AllCaps"		"1"
+		"AllCaps"		"0"
 		
-		"fgcolor_override"	"MenuTitle"
+		"fgcolor_override"	"SecondaryText"
 		"textAlignment"	"north-west"
-		"font"			"Size 50"
+		"font"			"Size 24"
 	}
 
 	"playlist"
@@ -39,9 +39,9 @@
 	//	"ControlName"	"CTFPlaylistPanel"
 		"fieldName"		"playlist"
 		"xpos"			"5"
-		"ypos"			"36"
+		"ypos"			"32"
 		"zpos"			"100"
-		"wide"			"280"
+		"wide"			"230"
 		"tall"			"305"
 		"visible"		"1"
 		"proportionaltoparent"	"1"

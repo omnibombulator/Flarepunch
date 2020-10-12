@@ -10,37 +10,37 @@
 		"fieldName"		"CasualCriteria"
 		"xpos"			"r0"
 		"ypos"			"20"
-		"zpos"			"1002"
-		"wide"			"270"
-		"tall"			"f70"
+		"zpos"			"10004"
+		"wide"			"240"
+		"tall"			"f20"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
 
 	"Title"
 	{
-		"xpos"			"4"
-		"ypos"			"-5"
+		"xpos"			"6"
+		"ypos"			"6"
 		
-		"wide"			"f0"
-		"tall"			"50"
+		"wide"			"f40"
+		"tall"			"24"
 		
-		"AllCaps"		"1"
+		"AllCaps"		"0"
 		
-		"fgcolor_override"	"MenuTitle"
+		"fgcolor_override"	"SecondaryText"
 		"textAlignment"	"north-west"
-		"font"			"Size 50"
+		"font"			"Size 24"
 	}
 
 	"criteria"
 	{
 		"ControlName"	"CCasualCriteriaPanel"
 		"fieldName"		"criteria"
-		"xpos"			"-3"
+		"xpos"			"0"
 		"ypos"			"40"
 		"zpos"			"100"
 		"wide"			"f0"
-		"tall"			"f85"
+		"tall"			"f75"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -68,9 +68,9 @@
 		"ypos"			"rs1-6"
 		
 		"wide"			"p0.97"
-		"tall"			"20"
+		"tall"			"32"
 		
-		"font"			"Size 11"
+		"font"			"Size 22"
 		
 		"paintbackground"	"0"
 		"border"			"ButtonDefaultLight"

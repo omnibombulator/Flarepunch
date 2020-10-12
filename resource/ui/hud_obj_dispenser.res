@@ -24,8 +24,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"obj_status_dispenser"
-		"iconColor"		"255 255 255 255"
+		"icon"			"engie_dispenser"
+		"iconColor"		"WhiteColor"
 	}
 	
 	"NotBuiltPanel"

@@ -10,11 +10,29 @@
 		"fieldName"		"MVMModeSelect"
 		"xpos"			"r0"
 		"ypos"			"20"
-		"zpos"			"1002"
+		"zpos"			"10004"
 		"wide"			"270"
-		"tall"			"f70"
+		"tall"			"f20"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+	}
+	
+	"Title"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"Title"
+		"xpos"		"6"
+		"ypos"		"6"
+		"zpos"		"99"
+		"wide"		"f40"
+		"tall"		"24"
+		"proportionaltoparent"	"1"
+		"labeltext"		"Mann vs. Machine"
+		"textAlignment"	"west"
+		"font"			"Size 24"
+		"fgcolor_override"	"SecondaryText"
+		
+		"mouseinputenabled"	"0"
 	}
 
 	"MvMLogoImage"
@@ -26,7 +44,7 @@
 		"zpos"			"2"
 		"wide"			"o2"
 		"tall"			"100"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
 		"image"			"mvm/mvm_logo"
@@ -38,10 +56,10 @@
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpGroupBox"
 		"xpos"		"6"
-		"ypos"		"55"
+		"ypos"		"34"
 		"zpos"		"1"
-		"wide"		"250"
-		"tall"		"215"
+		"wide"		"258"
+		"tall"		"236"
 		"visible"	"1"
 		"enabled"	"1"
 
@@ -100,20 +118,20 @@
 
 		"PlayNowButton"
 		{
-			//"ControlName"	"CExButton"
+			"ControlName"	"CExButton"
 			"fieldName"		"PlayNowButton"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-5"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"20"
-			"wide"			"120"
-			"tall"			"25"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"#TF_MvM_MannUp"
-			"font"			"HudFontMediumSmallBold"
+			"labelText"		"Y"
+			"font"			"MIcon 50"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -128,17 +146,31 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"fgcolor"		"0 0 0 0"
+			"fgcolor_override"	"0 0 0 0"
 
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultFgColor_override"	"0 0 0 0"
+			"armedFgColor_override"		"WhiteColor"
+			"depressedFgColor_override" "0 0 0 0"
+			
+			"defaultBgColor_override"	"0 0 0 0"
+			"armedBgColor_override"		"0 0 0 150"
+			"depressedBgColor_override" "0 0 0 0"
+			
+			"border"			"NoBorder"
+			"border_override"	"NoBorder"
+			"border_default"	"NoBorder"
+			"border_armed"		"NoBorder"
+			
+			"paintborder_override"	"0"
 		}
 
 		"PlayForBraggingRightsExplanation"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayForBraggingRightsExplanation"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"fgcolor_override"	"TanLight"
 			"labelText"		"#TF_MvM_BraggingRightsExplaination"
 			"textAlignment"	"north-west"
@@ -146,10 +178,32 @@
 			"ypos"			"rs1"
 			"zpos"			"2"
 			"wide"			"f20"
-			"tall"			"60"
+			"tall"			"38"
 			"wrap" "1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
+		}
+		
+		"MannUpLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"MannUpLabel"
+			"font"			"Size 32"
+			"fgcolor_override"	"WhiteColor"
+			"labelText"		"#TF_MvM_MannUp"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"f20"
+			"tall"			"32"
+			"wrap" "1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+			
+			"pin_to_sibling" "PlayForBraggingRightsExplanation"
+			"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
+			"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
 		}
 	}
 
@@ -160,8 +214,8 @@
 		"xpos"		"6"
 		"ypos"		"275"
 		"zpos"		"100"
-		"wide"		"250"
-		"tall"		"130"
+		"wide"		"258"
+		"tall"		"180"
 		"visible"	"1"
 		"enabled"	"1"
 		"proportionaltoparent"	"1"
@@ -223,18 +277,18 @@
 		{
 			//"ControlName"	"CExButton"
 			"fieldName"		"PracticeButton"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-5"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"20"
-			"tall"			"25"
-			"wide"			"120"
+			"tall"			"f0"
+			"wide"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"#TF_MvM_BootCamp"
-			"font"			"HudFontMediumSmallBold"
+			"labelText"		"Y"
+			"font"			"MIcon 50"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -250,9 +304,23 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"fgcolor"		"0 0 0 0"
+			"fgcolor_override"	"0 0 0 0"
+
+			"defaultFgColor_override"	"0 0 0 0"
+			"armedFgColor_override"		"WhiteColor"
+			"depressedFgColor_override" "0 0 0 0"
+			
+			"defaultBgColor_override"	"0 0 0 0"
+			"armedBgColor_override"		"0 0 0 150"
+			"depressedBgColor_override" "0 0 0 0"
+			
+			"border"			"NoBorder"
+			"border_override"	"NoBorder"
+			"border_default"	"NoBorder"
+			"border_armed"		"NoBorder"
+			
+			"paintborder_override"	"0"
 		}
 
 		"PlayOnCommunityServerExplanation"
@@ -267,10 +335,32 @@
 			"ypos"			"rs1"
 			"zpos"			"3"
 			"wide"			"f20"
-			"tall"			"50"
+			"tall"			"20"
 			"wrap" "1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
+		}
+		
+		"BootCampLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"BootCampLabel"
+			"font"			"Size 32"
+			"fgcolor_override"	"WhiteColor"
+			"labelText"		"#TF_MvM_BootCamp"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"f20"
+			"tall"			"32"
+			"wrap" "1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+			
+			"pin_to_sibling" "PlayOnCommunityServerExplanation"
+			"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
+			"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
 		}
 	}
 }

@@ -10,56 +10,28 @@
 		"fieldName"		"CompStats"
 		"xpos"			"r0"
 		"ypos"			"20"
-		"zpos"			"1002"
-		"wide"			"270"
-		"tall"			"f70"
+		"zpos"			"10004"
+		"wide"			"258"
+		"tall"			"f20"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
 
 	"Title"
 	{
-		"ControlName"		"Label"
-		"fieldName"		"Title"
-		"xpos"		"8"
-		"ypos"		"20"
-		"zpos"		"99"
-		"wide"		"f0"
-		"tall"		"20"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor_override"	"TanDark"
+		"xpos"		"6"
+		"ypos"		"6"
 		
-		"mouseinputenabled"	"0"
+		"wide"		"f40"
+		"tall"		"24"
+		
+		"font"			"Size 24"
+		"fgcolor_override"	"SecondaryText"
 	}
 
 	"ShowExplanationsButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"rs1-21"
-		"ypos"			"20"
-		"zpos"			"100"
-		"wide"			"15"
-		"tall"			"o1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"?"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
-		"Command"		"show_explanations"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"actionsignallevel"	"1"
-		"proportionaltoparent"	"1"
+		"xpos"			"r-10"
 	}
 	
 	"RankTooltipPanel"
@@ -83,7 +55,7 @@
 	{
 		"fieldName"		"stats"
 		"xpos"			"-1"
-		"ypos"			"40"
+		"ypos"			"30"
 		"zpos"			"100"
 		"wide"			"305"
 		"tall"			"f80"
@@ -109,34 +81,21 @@
 	}
 
 	"QueueButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"QueueButton"
+	{		
 		"xpos"			"cs-0.5"
-		"ypos"			"rs1-8"
-		"zpos"			"100"
-		"wide"			"f20"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"find_game"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_StartSearch"
-		"mouseinputenabled"	"1"
-		"keyboardinputenabled"	"0"
-		"actionsignallevel"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
+		"ypos"			"rs1-6"
+		
+		"wide"			"p0.97"
+		"tall"			"32"
+		
+		"font"			"Size 22"
+		
+		"paintbackground"	"0"
+		"border"			"ButtonDefaultLight"
+		"border_override"	"ButtonDefaultLight"
+		"border_default"	"ButtonDefaultLight"
+		"border_armed"		"ButtonHoverLight"
+		
+		"AllCaps"			"1"
 	}
 }

@@ -28,11 +28,37 @@ Scheme
 			"draw_corner_height" 	"8"		
 		}
 		
+		MenuBorderNavigation
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"NavigationBar"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"		
+		}
+		
 		MenuBorderBackground
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"MenuBackground"
+			"color"					"MainBackground"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"		
+		}
+		
+		MenuBorderSecondary
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"SecondaryBar"
 			
 			"image"					"replay/thumbnails/MaterialPanel"
 			"src_corner_height"		"32"				// pixels inside the image
@@ -99,6 +125,58 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			"color"					"ButtonBGColorLightHover"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		
+		ButtonDefaultGrey
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"ButtonBGColorGrey"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		
+		ButtonHoverGrey
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"ButtonBGColorGreyHover"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		
+		ButtonDefaultGray
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"ButtonBGColorGray"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		
+		ButtonHoverGray
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"ButtonBGColorGrayHover"
 			
 			"image"					"replay/thumbnails/MaterialPanel"
 			"src_corner_height"		"32"				// pixels inside the image
@@ -205,6 +283,86 @@ Scheme
 			"inset" "0 0 0 0"
 			"color"	"QualityColorUnique"
 			"backgroundtype" "2"
+		}
+		
+		CircleButton
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"BlackColor"
+			
+			"image"					"replay/thumbnails/hud_circle"
+			"src_corner_height"		"64"				// pixels inside the image
+			"src_corner_width"		"64"
+			"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"12"		
+		}
+		
+		CircleButtonLight
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"ButtonBGColorLight"
+			
+			"image"					"replay/thumbnails/hud_circle"
+			"src_corner_height"		"64"				// pixels inside the image
+			"src_corner_width"		"64"
+			"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"12"		
+		}
+		
+		CircleButtonHover
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"ButtonBGColorHover"
+			
+			"image"					"replay/thumbnails/hud_circle"
+			"src_corner_height"		"64"				// pixels inside the image
+			"src_corner_width"		"64"
+			"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"12"		
+		}
+		
+		CustomFriendBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "MainBackground"
+					"offset" "0 1"
+				}
+
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "MainBackground"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "MainBackground"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "MainBackground"
+					"offset" "0 0"
+				}
+			}
 		}
 		
 		

@@ -6,7 +6,7 @@
 		"fieldName"		"MMPopup"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
-		"zpos"			"10000"
+		"zpos"			"10002"
 		"wide"			"260"
 		"tall"			"70"
 		"visible"		"1"

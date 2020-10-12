@@ -92,3 +92,9 @@ event HudMatchStatus_ShowMatchStartDoors
 }
 
 
+
+event TrainingHudBounce
+{
+	Animate ObjectiveStatusTraining	Position		"c-160 r130"		Linear 0 0
+	Animate ObjectiveStatusTraining	Position		"c-160 r110"		Bounce 0.0 2.0
+}
