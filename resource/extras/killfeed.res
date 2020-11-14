@@ -7,7 +7,7 @@
 		"TextFont_minmode"		"BlankFont"
 	
 		"xpos"	 "r634"	[$WIN32]
-		"ypos"	 "33"	[$WIN32]
+		"ypos"	 "25"	[$WIN32]
 		"xpos"	 "r634"	[$X360]
 		"ypos"	 "4"	[$X360]
 		"wide"	 "628"

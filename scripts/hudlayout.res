@@ -433,6 +433,16 @@
 		"tall"					"480"
 	}
 	
+	"HudMenuTauntSelection"
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"ypos_hidef"	"0"
+		"ypos_lodef"	"0"
+		"wide"			"f0"
+		"tall"			"f0"
+	}
+	
 	// Killfeed
 	// Read Above!
 	HudDeathNotice

@@ -19,7 +19,7 @@
 
 		"RoundIndicatorPanel_kv"
 		{
-			"ypos"				"4"
+			"ypos"				"8"
 			"wide"				"6"
 			"tall"				"6"
 			"zpos"				"7"
@@ -29,7 +29,7 @@
 
 		"RoundWinPanelRed_kv"
 		{
-			"ypos"				"-2"
+			"ypos"				"3"
 			"wide"				"17"
 			"tall"				"17"
 			"zpos"				"8"
@@ -39,7 +39,7 @@
 
 		"RoundWinPanelBlue_kv"
 		{
-			"ypos"				"-2"
+			"ypos"				"3"
 			"wide"				"17"
 			"tall"				"17"
 			"zpos"				"8"
@@ -76,7 +76,7 @@
 		"zpos"			"-10"
 		"wide"			"90"
 		"tall"			"25"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"paintborder"	"1"
 		"paintbackground"	"0"

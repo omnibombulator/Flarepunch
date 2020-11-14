@@ -91,7 +91,31 @@ event HudMatchStatus_ShowMatchStartDoors
 	SetVisible CountdownBG 0 11
 }
 
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  0 0
+	SetVisible SkullPanel  0 0
+	SetVisible respawntime  1 0
+	SetVisible respawntimeshadow  1 0
 
+	Animate DeathPanel ypos 0 Accel 0 0.2
+	Animate SkullPanel ypos 0 Accel 0 0.2
+	Animate respawntime ypos 0 Accel 0 0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+	Animate DeathPanel ypos 0 Accel 0 0.2
+	Animate SkullPanel ypos 0 Accel 0 0.2
+	Animate respawntime ypos 0 Accel 0 0.2
+
+	SetVisible DeathPanel  0 0
+	SetVisible SkullPanel  0 0
+	SetVisible respawntime 0 0
+	SetVisible respawntimeshadow 0 0
+}
+
+//===========================================
 
 event TrainingHudBounce
 {
