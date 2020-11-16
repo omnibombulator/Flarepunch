@@ -5,7 +5,7 @@
 		"font"			"Size 42 Blur"
 		
 		// This element is pinned to AmmoInClip
-		"pin_to_sibling" "AmmoInClip"
+		"pin_to_sibling" 		"AmmoInClip"
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
 		
@@ -32,7 +32,7 @@
 		"font_minmode"	"Size 20 Blur"
 		
 		// This element is pinned to AmmoInReserve
-		"pin_to_sibling" "AmmoInReserve"
+		"pin_to_sibling" 		"AmmoInReserve"
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
 		
@@ -54,12 +54,13 @@
 		"font"			"Size 42 Blur"
 		
 		// This element is pinned to AmmoNoClip
-		"pin_to_sibling" "AmmoNoClip"
+		"pin_to_sibling" 		"AmmoNoClip"
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
 	
 		// Horizontal Position
 		"xpos"			"0"
+		"xpos_minmode"	"0"
 		
 		// Vertical Position
 		"ypos"			"0"

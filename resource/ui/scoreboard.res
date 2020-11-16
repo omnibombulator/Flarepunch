@@ -96,6 +96,8 @@
 		if_mvm
  		{
 			"xpos"			"c-260"
+			"ypos"			"c-102"
+			"ypos_minmode"	"c-22"
  			"visible"		"0"
  		}
 	}
@@ -497,6 +499,7 @@
 		if_mvm
  		{
  			"wide"			"520"
+			"tall"			"184"
 			"visible"		"1"
  		}
 		
@@ -523,6 +526,8 @@
 			if_mvm
 			{
 				"wide"			"520"
+				"tall"			"189"
+				"tall_minmode"	"24"
 			}
 		}
 		

@@ -53,6 +53,7 @@
 	
 		// Horizontal Position
 		"xpos"			"2"
+		"xpos_minmode"	"2"
 		
 		// Vertical Position
 		"ypos"			"2"
